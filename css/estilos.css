@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@1,700&family=Lexend+Deca&family=Lobster&family=Outfit:wght@300;400;600&family=Rowdies:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders+Display:wght@700&family=Fredoka+One&family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Outfit:wght@300;400;600&family=Rowdies:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.container {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  width: 18rem;
+  height: 90rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.box {
+  width: 18rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box2 {
+  width: 15rem;
+  height: 28rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+.darkcyan {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.icon {
+  width: 14rem;
+  height: 4rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.tittle {
+  width: 14rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Big Shoulders Display', cursive;
+}
+.description {
+  width: 14rem;
+  height: 20rem;
+  line-height: 1.8rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Lexend Deca';
+}
+.button {
+  width: 14rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+  color: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+}
+button {
+  border-radius: 2rem;
+  width: 9rem;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+}
+p {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s1 {
+  color: hsl(31, 77%, 52%);
+}
+p:hover {
+  color: hsl(0, 0%, 95%);
+}
+.s2 {
+  color: hsl(184, 100%, 22%);
+}
+.s3 {
+  color: hsl(179, 100%, 13%);
+}
+.attribution {
+  color: black;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* ----------------PARA PC----------------------*/
+@media only screen and (min-width: 900px) {
+  .card {
+    width: 55rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .box {
+    height: 35rem;
+  }
+  .orange {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1rem;
+  }
+  .darkcyan {
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 1rem;
+  }
+}
